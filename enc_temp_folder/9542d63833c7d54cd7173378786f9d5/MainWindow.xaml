@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="TestingApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestingApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="TestingApp">
+    <Grid>
+		<!-- MainWindow.xaml -->
+		<Button x:Name="SendNotificationButton" Content="Send App Notification" Click="SendNotificationButton_Click"/>
+
+		<TextBlock Text="Activation arguments:" FontWeight="SemiBold" Margin="0,12,0,0"/>
+		<TextBox x:Name="ActionTextBox" Header="action" IsReadOnly="True" PlaceholderText="(none)"/>
+		<TextBox x:Name="ExampleEventIdTextBox" Header="exampleEventId" IsReadOnly="True" PlaceholderText="(none)"/>
+
+    </Grid>
+</Window>
