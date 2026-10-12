@@ -18,7 +18,7 @@
   <mp:PhoneIdentity PhoneProductId="a0ee7a13-938d-40fc-9247-518190d81ac3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>AppNotificationSystem</DisplayName>
+    <DisplayName>TestingApp</DisplayName>
     <PublisherDisplayName>sarah</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -37,8 +37,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="AppNotificationSystem"
-        Description="AppNotificationSystem"
+        DisplayName="TestingApp"
+        Description="TestingApp"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
@@ -53,7 +53,7 @@
 
 			<com:Extension Category="windows.comServer">
 				<com:ComServer>
-					<com:ExeServer Executable="AppNotificationSystem.exe" DisplayName="AppNotificationSystem" Arguments="----AppNotificationActivated:">
+					<com:ExeServer Executable="TestingApp.exe" DisplayName="TestingApp" Arguments="----AppNotificationActivated:">
 						<com:Class Id="9F817E49-2157-4521-A3A3-130E42763DF5" />
 					</com:ExeServer>
 				</com:ComServer>
